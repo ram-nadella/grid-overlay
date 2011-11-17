@@ -17,7 +17,7 @@ document.getElementById("both-grid-overlay").appendChild(grid_off_link);
 var overlay_css = document.createElement("link");
     overlay_css.setAttribute("rel", "stylesheet");
     overlay_css.setAttribute("type", "text/css");
-    overlay_css.setAttribute("href", "style.css");
+    overlay_css.setAttribute("href", "http://ram-nadella.github.com/grid-overlay/style.css");
     
 document.getElementsByTagName("head")[0].appendChild(overlay_css);
     
